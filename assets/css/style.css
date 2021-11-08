@@ -209,6 +209,7 @@ hr {
     padding-bottom: 0;
     background: url(../images/devices-bg.png) center no-repeat;
     background-size: cover;
+    margin-bottom: 40px;
 }
 
 .section__header {
@@ -381,4 +382,28 @@ hr {
     bottom: -80px;
     right: 0;
     z-index: 1;
+}
+
+/* We do */
+
+.wedo {
+    display: flex;
+}
+
+.wedo__item {
+    width: 50%;
+}
+
+/* Accordion */
+
+.accordion__item {
+    border: solid 1px #e5e5e5;
+}
+
+.accordion__header {
+    border-bottom: solid 1px #e5e5e5;
+}
+
+.accordion__content {
+    padding: 15px;
 }
