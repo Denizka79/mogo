@@ -695,3 +695,58 @@ hr {
     background-color: #f38181;
     margin: 15px 0;
 }
+
+/* Blog */
+.blog {
+    display: flex;
+}
+
+.blog__item {
+    width: 30%;
+}
+
+.blog__header {
+    position: relative;
+}
+
+.blog__photo {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.blog__date {
+    position: absolute;
+    background-color: #95e1d3;
+    bottom: 10px;
+    left: -10px;
+    z-index: 1;
+    color: #fff;
+    font-size: 15px;
+    font-style: italic;
+    padding: 10px 20px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.blog__date-day {
+    font-size: 30px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 1;
+}
+
+.blog__title {
+    font-size: 14px;
+    color: #333;
+    text-transform: uppercase;
+}
+
+.blog__title a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.blog__title a:hover {
+    text-decoration: underline;
+}
