@@ -223,7 +223,8 @@ hr {
 }
 
 .section--map {
-    background: #e6e6e6;
+    padding: 40px 0;
+    background: #e6e6e6/* url("../images/map-bg.png") center no-repeat */;
 }
 
 .section__header {
@@ -816,4 +817,17 @@ hr {
 
 .map__title a:hover {
     text-decoration: underline;
+}
+
+/* Footer */
+
+.footer {
+    padding-top: 65px;
+    background-color: #f8f8f8;
+}
+
+.footer__logo {
+    font-size: 46px;
+    font-weight: 700;
+    color: #ccc;
 }
