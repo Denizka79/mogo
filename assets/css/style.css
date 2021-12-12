@@ -830,4 +830,49 @@ hr {
     font-size: 46px;
     font-weight: 700;
     color: #ccc;
+    margin-bottom: 30px;
+}
+
+.footer__text {
+    margin-bottom: 30px;
+    font-size: 15px;
+    color: #999;
+}
+
+.footer__social {
+    margin-bottom: 25px;
+}
+
+.footer__social-header {
+    padding-bottom: 15px;
+    font-size: 14px;
+    color: #333;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.footer__social-header b {
+    font-size: 18px;
+}
+
+.footer__social-content {
+    padding-top: 15px;
+    font-size: 15px;
+    color: #999;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.footer__social-content a {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+    color: #95e1d3;
+    font-style: 15px;
+}
+
+/* Subscribe */
+
+.subscribe {
+    width: 100%;
+    max-width: 380px;
 }
