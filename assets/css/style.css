@@ -895,6 +895,39 @@ hr {
     color: #333;
 }
 
+/* Blogs */
+
+.blogs__item {
+    display: flex;
+}
+
+.blogs__img {
+    width: 120px;
+    height: 80px;
+}
+
+.blogs__content {
+    padding-left: 20px;
+}
+
+.blogs__date {
+    font-size: 13px;
+    color: #999;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.blogs__title {
+    color: #333;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.blogs__title:hover {
+    text-decoration: underline;
+}
+
 /* Subscribe */
 
 .subscribe {
