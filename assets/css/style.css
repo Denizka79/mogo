@@ -267,11 +267,14 @@ hr {
 .card {
     margin-top: 80px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
 .card__item {
-    width: 380px;
+    margin: 80px -15px 0;
+    width: 33.33333%;
+    padding: 0 15px;
 }
 
 .card__inner {
@@ -298,6 +301,8 @@ hr {
 
 .card__img img {
     display: block;
+    max-width: 100%;
+    height: auto;
     transition: opacity 0.1s linear;
 }
 
@@ -1040,8 +1045,22 @@ hr {
     /* Section */
 
     .section {
-        padding: 40px;
+        padding: 40px 0;
     }
+
+    /* Card */
+
+    .card {
+        justify-content: center;
+    }
+
+    .card__item {
+        margin-top: 10px;
+        width: 100%;
+        max-width: 410px;
+    }
+
+    /* Slider */
 
     .slider__text {
         display: none;
