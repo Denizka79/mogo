@@ -97,7 +97,14 @@ hr {
 }
 
 .header--fixed {
+    padding: 10px 0;
     background-color: #ec908f;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    transform: translate3d(0, 0, 0);
 }
 
 .header__inner {
@@ -159,8 +166,8 @@ hr {
     width: 30px;
     padding: 10px 0;
     position: absolute;
-    top: 30px;
-    right: 30px;
+    top: 24px;
+    right: 24px;
     z-index: 1;
 }
 
@@ -1219,6 +1226,12 @@ hr {
 
     .intro {
         min-height: 650px;
+    }
+
+    /* Header */
+
+    .header {
+        padding-top: 10px;
     }
     
     /* Nav */
