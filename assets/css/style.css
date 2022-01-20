@@ -96,8 +96,7 @@ hr {
     z-index: 1000;
 }
 
-.header--fixed {
-    padding: 10px 0;
+.header.fixed {
     background-color: #ec908f;
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
     position: fixed;
@@ -105,6 +104,10 @@ hr {
     left: 0;
     right: 0;
     transform: translate3d(0, 0, 0);
+}
+
+.header.active {
+    background-color: #ec908f;
 }
 
 .header__inner {
@@ -169,6 +172,12 @@ hr {
     top: 24px;
     right: 24px;
     z-index: 1;
+    font-size: 0;
+    color: transparent;
+    border: 0;
+    background: none;
+    cursor: pointer;
+    display: none;
 }
 
 .nav-toggle__item {
@@ -1231,13 +1240,28 @@ hr {
     /* Header */
 
     .header {
-        padding-top: 10px;
+        padding-top: 10px 0;
     }
     
     /* Nav */
     
     .nav {
         display: none;
+        width: 100%;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background-color: #eb8b8d;
+    }
+
+    .nav__link {
+        display: block;
+        margin: 0;
+        padding: 8px 20px;
+    }
+
+    .nav-toggle {
+        display: block;
     }
 
     /* Section */
