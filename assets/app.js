@@ -2,6 +2,8 @@ let intro = document.querySelector(".intro");
 let htm = document.querySelector("html");
 let header = document.querySelector(".header");
 let allNavLinks = document.querySelectorAll(".nav__link");
+let navToggle = document.querySelector(".nav-toggle");
+let nav = document.querySelector(".nav");
 
 document.addEventListener("scroll", function() {
     if (htm.scrollTop >= intro.offsetHeight) {
@@ -21,3 +23,8 @@ for (i = 0; i < allNavLinks.length; i++) {
         }
     });
 }
+
+navToggle.addEventListener("click", function() {
+    this.classList.toggle("active");
+    nav.classList.toggle("active");
+});

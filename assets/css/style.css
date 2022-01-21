@@ -1271,7 +1271,12 @@ hr {
         position: absolute;
         top: 100%;
         left: 0;
-        background-color: #eb8b8d;
+        background-color: #f38181;
+        /* background-color: #ec908f; */
+    }
+
+    .nav.active {
+        display: block;
     }
 
     .nav__link {
