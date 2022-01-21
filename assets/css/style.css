@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
@@ -87,7 +91,7 @@ hr {
 /* Header */
 
 .header {
-    padding-top: 30px;
+    padding-top: 10px 0;
     width: 100%;
     position: absolute;
     left: 0;
@@ -154,11 +158,11 @@ hr {
     transition: opacity 0.1s linear;
 }
 
-.nav__link:hover {
+.nav__link.active, .nav__link:hover {
     color: #fce38a;
 }
 
-.nav__link:hover::after {
+.nav__link.active::after, .nav__link:hover::after {
     /*display: block;*/
     opacity: 1;
 }

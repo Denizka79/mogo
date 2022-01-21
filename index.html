@@ -12,15 +12,15 @@
     <script src="https://kit.fontawesome.com/5b10c007d4.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header class="header fixed">
+    <header class="header">
         <div class="container">
             <div class="header__inner">
                 <div class="header__logo">MoGo</div>
                 <nav class="nav">
-                    <a class="nav__link" href="#">About</a>
-                    <a class="nav__link" href="#">Sevice</a>
-                    <a class="nav__link" href="#">Work</a>
-                    <a class="nav__link" href="#">Blog</a>
+                    <a class="nav__link" href="#about" data-scroll="#about">About</a>
+                    <a class="nav__link" href="#service">Sevice</a>
+                    <a class="nav__link" href="#work">Work</a>
+                    <a class="nav__link" href="#blog">Blog</a>
                     <a class="nav__link" href="#">Contact</a>
                     <a class="nav__link" href="#"><i class="fas fa-shopping-cart"></i></a>
                     <a class="nav__link" href="#"><i class="fas fa-search"></i></a>
@@ -59,7 +59,7 @@
                 </div>
             </div>
         </div>
-        <div class="section">
+        <div class="section" id="about">
             <div class="container">
                 <div class="section__header">
                     <h3 class="section__suptitle">What we do</h3>
@@ -120,7 +120,7 @@
                 </div>
             </div>
         </div>
-        <div class="section">
+        <div class="section" id="service">
             <div class="container">
                 <div class="section__header">
                     <h3 class="section__suptitle">We work with</h3>
@@ -327,7 +327,7 @@
                 </div>
             </div>
         </div>
-        <div class="section">
+        <div class="section" id="work">
             <div class="container">
                 <div class="section__header">
                     <h3 class="section__suptitle">What we do</h3>
@@ -450,7 +450,7 @@
                 </div>
             </div>
         </div>
-        <div class="section">
+        <div class="section" id="blog">
             <div class="container">
                 <div class="section__header">
                     <h3 class="section__suptitle">Our Stories</h3>
@@ -632,5 +632,7 @@
             <div class="copyright">© 2021 MoGo. By <span>Denis M</span></div>
         </div>
     </div>
+    <script src="assets/jquery-3.6.0.min.js"></script>
+    <script src="assets/app.js"></script>
 </body>
 </html>
