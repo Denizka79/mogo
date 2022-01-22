@@ -4,6 +4,8 @@ let header = document.querySelector(".header");
 let allNavLinks = document.querySelectorAll(".nav__link");
 let navToggle = document.querySelector(".nav-toggle");
 let nav = document.querySelector(".nav");
+let dataCollapseElements = document.querySelectorAll("[data-collapse]");
+let accordionContentElements = document.querySelectorAll(".accordion__content");
 
 document.addEventListener("scroll", function() {
     if (htm.scrollTop >= intro.offsetHeight) {
@@ -28,3 +30,13 @@ navToggle.addEventListener("click", function() {
     this.classList.toggle("active");
     nav.classList.toggle("active");
 });
+
+for (let k = 0; k < dataCollapseElements.length; k++) {
+    dataCollapseElements[k].addEventListener("click", function() {
+        let collapseId = dataCollapseElements[k].getAttribute("data-collapse");
+        let slideToggleItem = document.getElementById(collapseId);
+        /* $(slideToggleItem).slideToggle(); */
+        this.classList.toggle("active");
+        slideToggleItem.classList.toggle("active");
+    });
+}

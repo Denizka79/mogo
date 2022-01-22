@@ -604,6 +604,10 @@ hr {
     color: #999;
 }
 
+.accordion__content.active {
+    display: block;
+}
+
 .accordion__title {
     font-size: 14px;
     color: #333;
