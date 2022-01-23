@@ -522,7 +522,7 @@ hr {
 
 .devices__item--iphone {
     position: absolute;
-    bottom: -80px;
+    bottom: -40px;
     right: 0;
     z-index: 1;
 }
@@ -688,6 +688,11 @@ hr {
 .reviews__btn--next {
     right: 0;
     transform: rotate(135deg);
+}
+
+.reviews__carousel {
+    display: flex;
+    overflow: hidden;
 }
 
 /* Social */
