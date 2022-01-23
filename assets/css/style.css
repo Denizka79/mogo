@@ -690,11 +690,6 @@ hr {
     transform: rotate(135deg);
 }
 
-.reviews__carousel {
-    display: flex;
-    overflow: hidden;
-}
-
 /* Social */
 
 .social {
